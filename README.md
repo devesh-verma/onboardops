@@ -1,0 +1,4 @@
+## Project: Google Sign In and File Uploader
+- Create a web page and implement sign-in using google authentication. After login, users should be able to upload any kind of file on AWS s3 bucket. The bucket should be private where you store the files.
+- On the webpage, list all the files uploaded using the same uploader. Clicking on a file should download that file. Assume the uploaded content is critical and important, so keep security in mind.
+- You can use any language of your choice to create this. Please use the AWS sdk for s3 communication. Using GraphQL (rather than REST APIs) is a bonus, but not required.
